@@ -1,0 +1,163 @@
+\documentclass{resume} % Use the custom resume.cls style
+\usepackage[dvipsnames]{xcolor}
+\usepackage{hyperref}
+\usepackage[backend=biber, style=ieee, sorting=none]{biblatex}
+\addbibresource{references.bib}
+\usepackage{xcolor}  % 加载颜色包
+\usepackage{hyperref}  % 加载超链接包\
+\usepackage{setspace}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+    citecolor=black
+}
+
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.1in]{geometry} % Document margins
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+
+\name{Zhongqi Xiu} % Your name
+\address{Homepage: \href{https://k-telux.github.io/}{\texttt{k-telux.github.io}}}
+\address{Phone: (+86) 19805675505 \\ Email: \texttt{xzqtelux@mail.ustc.edu.cn}} % Your phone number and email
+
+\definecolor{CarnegieMellonRed}{RGB}{196,18,48}
+
+\renewenvironment{rSection}[1]{
+\sectionskip
+\textcolor{CarnegieMellonRed}{\MakeUppercase{#1}}
+\sectionlineskip
+\hrule
+\begin{list}{}{
+\setlength{\leftmargin}{1.5em}
+}
+\item[]
+}{
+\end{list}
+}
+
+
+
+\begin{document}
+\begin{rSection}{Education}
+{\bf University of Science and Technology of China} \hfill {\em (2021 - Present)} 
+\\ Major in Optic and Optical Engineering\hfill
+\\ GPA: 3.88/4.3 (87.5/100) \hfill
+\end{rSection}
+
+
+\begin{rSection}{HONORS} \itemsep -2pt
+{Chung-Yao Chao Talent Program Scholarship}\hfill {\em 2023} \\
+{\textbf{Outstanding Student Scholarship, Silver Prize} (Top 10\%)}\hfill {\em 2022,2023} \\
+{\textbf{Endeavor Scholarship} (Top 5\%)} \hfill {\em 2022} \\
+{First Prize in the electromagnetism course essay competition (IYPT 2022)}\hfill {\em 2022} \\
+{Outstanding Freshman Scholarship, Third prize}\hfill {\em 2021}
+\end{rSection}
+
+\begin{rSection}{Research Experience}
+\vspace{2pt}
+\begin{rSubsection}{Single atom trapping technique based on movable optical lattices }{\textit{2022 - 2024}}{ Supervisors: \href{https://faculty.ustc.edu.cn/wangjian1}{Dr. Jian Wang} and \href{http://lqcc.ustc.edu.cn/cfli/}{Prof. Chuanfeng Li}}{\href{https://lqcc.ustc.edu.cn/}{CAS Key Lab of Quantum Information}}
+\begin{spacing}{1.0}
+\item Contributed to the optical path building in a magneto-optical trap for $^{87}Rb$. Independently built the double pass configuration to adjust the frequency of cooling light with Bragg diffraction.
+\vspace{3pt}
+\item Built and tested the second ultrahigh optical accessible vacuum system in the lab, in which an Rb atom dispenser was mounted for the MOT and optical dipole traps for ensembles and single atoms. Reached ultra-high vacuum in the system: $3\times10^{-11}$ Torr.
+\vspace{3pt}
+\item Independently pre-treated the optical fibers for vacuum systems and tested the mode field diameter of treated single-mode fiber to optimize the mode matching between the modes of cavity and fiber.
+\vspace{3pt}
+\item Carried out control circuits design and installed control electronics, including the microwave amplifier, radio frequency switch, and radio frequency generator, into multiple integrated chassis to facilitate the connection of electrical devices in the optical path.
+\vspace{3pt}
+\item Achieved the control time of atoms to 3s (Unpublished)
+\end{spacing}
+\end{rSubsection}
+\vspace{-5pt}
+\begin{rSubsection}{Single photon emitter creation in few layer 2D materials}{\textit{2024 - Present}}{Supervisors: \href{https://scholar.google.com/citations?user=lm68m7kAAAAJ&hl=en}{Dr. Wenjing Wu} and \href{https://profiles.rice.edu/faculty/shengxi-huang}{Prof. Shengxi Huang}}{\href{https://scopelab.rice.edu/}{SCOPE Lab}}
+
+\item Exfoliated WSe$_2$ and WS$_2$ thin layers and fabricated heterostructures with hBN and graphene. Transferred heterostructures onto pre-fabricated substrates with strain engineering features (nano pillars, nano discs).
+\item Performed remote nitrogen plasma treatment on exfoliated WS$_2$ flakes to create substitution defects.
+\item Carried out optical spectroscopy measurements, including photoluminescence (PL), Raman, and time-correlated single photon counting (TCSPC) spectroscopy, to comprehensively study the property of single photon emitters.
+\vspace{3pt}
+\item Examined the single photon emission quality by conducting photon statistic measurements, obtain second-order correlation function $g^{(2)}(\tau) $using Hanbury Brown and Twiss (HBT) interferometry. 
+\item Improved the purity of SPE by polarization selection, electrostatic gating, and charge transfer between molecules and graphene.
+\end{rSubsection}
+
+\end{rSection}
+
+
+\begin{rSection}{Publications} \itemsep -2pt
+
+\end{rSection}
+
+\newpage
+
+\begin{rSection}{Teaching assistant} \itemsep -2pt
+\begin{rSubsection}{Optics B(Fall 2023)}{\em 2023}{}
+\item \textbullet \hspace{0.3em} Instructor: \href{https://opt.ustc.edu.cn/2022/0327/c30405a550323/page.htm}{Prof. Zheng Xi}
+
+\item \textbullet \hspace{0.3em} Credit 3; Class: 58 juniors; Course Website: \href{https://icourse.club/course/22022/#review-77240}{icourse.club/course/22022}
+\end{rSubsection}
+\end{rSection}
+
+\begin{rSection}{Key courses taken} \itemsep -2pt
+\begin{rSubsection}{Math}{}{}
+\item Mathematical Analysis, Function of Complex Variable, Computational Method, Equations of Mathematical Physics, Computational Physics
+\end{rSubsection}
+
+\begin{rSubsection}{Physics}{}{}
+\item Atomic Physics, Electrodynamics, Quantum Mechanics, Technique of Quantum Information, Laser Principle and Technology, Advanced Photon Physics, Fundamentals of Modern Optics, Engineering Optics, Solid State Physics, Quantum Optics
+\end{rSubsection}
+
+\end{rSection}
+
+\begin{rSection}{OPERATION PROFICIENCY} \itemsep -2pt
+
+\begin{rSubsection}{Optical path construction}{}{}
+
+\item Coupling and design of optical paths
+
+\item Fiber and free space beam and instrument aligning 
+\item Mode-locking and testing of lasers
+
+\end{rSubsection}
+
+\begin{rSubsection}{Characterization}{}{}
+
+\item Optical spectroscopy (photoluminescence, time-correlated spectroscopy, Raman spectroscopy, reflectance, polarization resolved spectroscopy, HBT interferometry)
+
+\end{rSubsection}
+
+\begin{rSubsection}{Nanofabrication}{}{}
+
+\item Thin film deposition, lithography, dry and wet etching, 2D heterostructure stacking and transferring. 
+\end{rSubsection}
+	
+\end{rSection}
+
+\begin{rSection}{Skills} \itemsep -2pt
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Programming Languages &  Python, C/C++, HTML/CSS \\
+Frameworks and Softwares & Anaconda, MATLAB, Solidworks, LabVIEW, Keil, COMSOL \\
+English & TOEFL: 99 (R: 26; L: 27; S: 22; W: 24;) \\
+\end{tabular}
+\end{rSection}
+
+\begin{rSection}{Curricular projects}
+    \begin{rSubsection}{Discover physical concepts with machine learning and neural networks}{\textit{2021 - 2022}}{}
+    
+    \item Independently built neural networks with three neurons using MATLAB.
+    \item Derived the Planck radiation law formula from original spectrum data using the model.
+    \end{rSubsection}
+
+    \begin{rSubsection}{Simulation and review of light field modes in Fabry–Pérot cavity}{\textit{2022}}{}
+    
+    \item Simulated the optical characteristics (transmission rate, resonance mode...) of Fabry–Pérot resonators using COMSOL and compared the results with analytical solutions.
+    \end{rSubsection}
+    
+    \begin{rSubsection}{RoboGame 2023}{\textit{2023}}{}
+    
+    \item Designed the main control board (STM32) using Cubemx and Keil
+    \item Drew the power distribution boards PCB, ensured consistency across all robot components.
+    \item Wrote and fine-tuned the PID algorithm for wheel movement.
+    \end{rSubsection}
+\end{rSection}
+
+\end{document}
